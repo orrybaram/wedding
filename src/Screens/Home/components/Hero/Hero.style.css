@@ -1,0 +1,30 @@
+.Hero {
+  background-image: url('./img/heroImage.jpg');
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Hero__logo {
+  background: rgba(0, 0, 0, 0.8);
+  padding: 24px;
+}
+
+.Hero__title {
+  font-size: 50px;
+  text-transform: uppercase;
+  margin: 0;
+  font-weight: 600;
+  line-height: 48px;
+  letter-spacing: -2px;
+}
+
+.Hero__title--hanna {
+  color: pink;
+}
+
+.Hero__title--orry {
+  color: white;
+}
