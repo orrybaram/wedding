@@ -12,9 +12,47 @@ body {
 }
 
 body {
+  font-family: 'Domine', serif;
+  position: relative;
+  color: var(--black);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
   font-family: 'Montserrat', sans-serif;
+  letter-spacing: -1px;
+}
+
+p {
+  margin: 0;
+}
+
+a {
+  color: inherit;
 }
 
 hr {
   width: 100%;
+}
+
+:root {
+  --primary: pink;
+  --secondary: #d2ead2;
+  --black: #393737;
+  --grey: #6d6868;
+  --light-grey: #d3d3d3;
+}
+
+.u--font-thin {
+  font-weight: 100;
+}
+
+.container {
+  max-width: 1024px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
 }

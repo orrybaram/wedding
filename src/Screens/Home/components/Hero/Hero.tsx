@@ -1,5 +1,5 @@
-import React from 'react'
-import './Hero.style.css'
+import React from 'react';
+import './Hero.style.css';
 
 const Hero = () => {
   return (
@@ -9,7 +9,7 @@ const Hero = () => {
         <h1 className="Hero__title Hero__title--orry">+ Orry</h1>
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default Hero
+export default Hero;

@@ -1,0 +1,30 @@
+.Details {
+  padding: 80px 0;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.Detail__label {
+  display: inline-flex;
+  background: var(--black);
+  color: #fff;
+  padding: 8px;
+  box-shadow: 8px 8px #d2e9d2;
+  margin-bottom: 16px;
+  text-transform: uppercase;
+}
+
+.Detail__value {
+  margin: 0;
+  font-size: 40px;
+}
+
+.Detail__details {
+  color: var(--grey);
+  font-style: italic;
+}
+
+.Detail__Divider {
+  width: 1px;
+  background-color: var(--light-grey);
+}
