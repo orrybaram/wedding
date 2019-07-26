@@ -52,7 +52,8 @@
   ],
   "dependencies": {
     "react": "^16.8.6",
-    "react-dom": "^16.8.6"
+    "react-dom": "^16.8.6",
+    "src": "^1.1.2"
   },
   "devDependencies": {
     "@types/jest": "^24.0.11",
