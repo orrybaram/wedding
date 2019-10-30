@@ -3,6 +3,7 @@ import './Home.style.css';
 import Hero from './components/Hero';
 import Banner from './components/Banner';
 import Details from './components/Details';
+import AdditionalInfo from './components/AdditionalInfo';
 
 const Home = () => {
   return (
@@ -10,6 +11,7 @@ const Home = () => {
       <Hero />
       <Banner />
       <Details />
+      <AdditionalInfo />
     </main>
   );
 };
