@@ -19,7 +19,7 @@ const Details = () => {
         className="container"
         margin="0 auto"
         flexDirection={['column', 'column', 'column', 'row']}
-        py={5}
+        py={6}
       >
         <Box
           width={[1, 1, 1, 1 / 2]}

@@ -1,4 +1,5 @@
 import React, { useEffect } from 'react';
+import { Box } from 'reflexbox';
 import './ZolaRegistry.styles.css';
 
 type Props = {
@@ -17,13 +18,15 @@ const ZolaRegistry = (props: Props) => {
   }, []);
 
   return (
-    <a
-      className="zola-registry-embed"
-      href={props.url}
-      data-registry-key={props.registryKey}
-    >
-      Our Zola Wedding Registry
-    </a>
+    <Box py={6} className="ZolaRegistry">
+      <a
+        className="zola-registry-embed"
+        href={props.url}
+        data-registry-key={props.registryKey}
+      >
+        Our Zola Wedding Registry
+      </a>
+    </Box>
   );
 };
 
