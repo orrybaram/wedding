@@ -52,7 +52,7 @@ const AdditionalInfo = () => {
             <a href={hotelMapLink} target="_blank">
               we've put together a map
             </a>{' '}
-            of a few other hotels in the neighborhood. Not the hotel type?{' '}
+            of a few hotels in the neighborhood. Not the hotel type?{' '}
             <a href={airbnbLink} target="_blank">
               Airbnb
             </a>{' '}
