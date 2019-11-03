@@ -14,7 +14,8 @@
 }
 
 .Detail__details {
-  color: var(--grey);
+  color: var(--green);
   font-style: italic;
   font-size: 22px;
+  margin-bottom: 12px;
 }

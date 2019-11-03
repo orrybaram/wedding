@@ -15,6 +15,7 @@ body {
   font-family: 'Domine', serif;
   position: relative;
   color: var(--black);
+  background: #f8fff8;
 }
 
 h1,
@@ -24,10 +25,21 @@ h4,
 h5 {
   font-family: 'Montserrat', sans-serif;
   letter-spacing: -1px;
+  margin: 0;
 }
 
 p {
   margin: 0;
+  line-height: 24px;
+}
+
+p a {
+  color: var(--paank);
+  background-color: #e4679b0d;
+}
+
+p a:hover {
+  color: #bd497a;
 }
 
 a {
@@ -44,6 +56,11 @@ hr {
   --black: #393737;
   --grey: #6d6868;
   --light-grey: #d3d3d3;
+
+  --green: #8cbd8c;
+  --light-green: #d2ead2;
+  --pinkish: #84536b;
+  --paank: #e4679b;
 }
 
 .u--font-thin {

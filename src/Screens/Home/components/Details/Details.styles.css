@@ -1,7 +1,7 @@
 .Details {
-  padding: 80px 0;
   flex-direction: row;
   justify-content: space-between;
+  background: #f9f7f7;
 }
 
 .Detail__label {
