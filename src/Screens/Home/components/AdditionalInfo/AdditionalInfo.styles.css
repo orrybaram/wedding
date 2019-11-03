@@ -1,0 +1,13 @@
+.AdditionalInfo {
+  background-color: #e9f7e9;
+}
+
+.Tag {
+  padding: 2px 4px;
+  background: var(--primary);
+  color: var(--pinkish);
+  border-radius: 4px;
+  font-family: Montserat, sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+}

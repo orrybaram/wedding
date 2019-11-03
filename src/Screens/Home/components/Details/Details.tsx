@@ -1,5 +1,7 @@
 import React from 'react';
+import { Flex, Box } from 'reflexbox';
 import './Details.styles.css';
+import Detail from '../../../../components/Detail';
 
 const Details = () => {
   const googleCalendarLink = [
@@ -12,36 +14,53 @@ const Details = () => {
   ].join('');
 
   return (
-    <section className="container Details">
-      <div className="Detail">
-        <h4 className="Detail__label">When</h4>
-        <h2 className="Detail__value">
-          March 28th, <span className="u--font-thin">2020</span>
-        </h2>
-        <p className="Detail__details">
-          <a target="_blank" href={googleCalendarLink}>
-            Party from 5pm - 10pm
-          </a>
-        </p>
-      </div>
+    <section className="Details">
+      <Flex
+        className="container"
+        margin="0 auto"
+        flexDirection={['column', 'column', 'column', 'row']}
+        py={5}
+      >
+        <Box
+          width={[1, 1, 1, 1 / 2]}
+          justifyContent={['center', 'center', 'center', 'flex-start']}
+          marginBottom={[4, 4, 4, 0]}
+        >
+          <Detail
+            label="When"
+            value={
+              <>
+                March 28th, <span className="u--font-thin">2020</span>
+              </>
+            }
+            details={
+              <a target="_blank" href={googleCalendarLink}>
+                Party from 5:30pm - 10:30pm
+              </a>
+            }
+          />
 
-      <div className="Detail__Divider" />
-
-      <div className="Detail">
-        <h4 className="Detail__label">Where</h4>
-        <h2 className="Detail__value">
-          Dobbin St <span className="u--font-thin">Brooklyn, NY</span>
-        </h2>
-        <p className="Detail__details">
-          <a
-            target="_blank"
-            href="https://www.google.com/maps/place/Dobbin+St/@40.724239,-73.953704,15z/data=!4m5!3m4!1s0x0:0x625dcb2a0afaf0b0!8m2!3d40.724239!4d-73.953704"
-          >
-            64 Dobbin St, Brooklyn, NY 11222
-          </a>
-        </p>
-      </div>
-      {/* <a href="https://www.zola.com/registry/hannaandorry">Registry</a> */}
+          <div className="Detail__Divider" />
+        </Box>
+        <Box width={[1, 1, 1, 1 / 2]}>
+          <Detail
+            label="Where"
+            value={
+              <>
+                Dobbin St <span className="u--font-thin">Brooklyn, NY</span>
+              </>
+            }
+            details={
+              <a
+                target="_blank"
+                href="https://www.google.com/maps/place/Dobbin+St/@40.724239,-73.953704,15z/data=!4m5!3m4!1s0x0:0x625dcb2a0afaf0b0!8m2!3d40.724239!4d-73.953704"
+              >
+                64 Dobbin St, Brooklyn, NY 11222
+              </a>
+            }
+          />
+        </Box>
+      </Flex>
     </section>
   );
 };
