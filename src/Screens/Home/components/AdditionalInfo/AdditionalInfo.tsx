@@ -28,6 +28,17 @@ const AdditionalInfo = () => {
             details="Some places to stay in the neighborhood"
           />
           <Box mb={2} mt={4}>
+            <h4>The Box House Hotel</h4>
+          </Box>
+          <Box mb={3}>
+            <p>
+              We'll be staying at the{' '}
+              <a target="_blank" href="https://theboxhousehotel.com/">
+                The Box House Hotel.
+              </a>
+            </p>
+          </Box>
+          <Box mb={2} mt={4}>
             <h4>The Hoxton Hotel</h4>
           </Box>
           <Box mb={3}>
