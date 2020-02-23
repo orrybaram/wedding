@@ -34,8 +34,9 @@ const AdditionalInfo = () => {
             <p>
               We'll be staying at the{' '}
               <a target="_blank" href="https://theboxhousehotel.com/">
-                The Box House Hotel.
-              </a>
+                The Box House Hotel
+              </a>{' '}
+              in Greenpoint.
             </p>
           </Box>
           <Box mb={2} mt={4}>
@@ -94,6 +95,18 @@ const AdditionalInfo = () => {
             providing any transportation to or from the venue. Fortunately, NYC
             has great public transit, tons of cabs, and a number of on-demand
             car services. Feel free to reach out to us with any questions.
+          </p>
+
+          <Box mb={2} mt={4}>
+            <h4>Parking</h4>
+          </Box>
+          <p>
+            If you're driving up, street parking is available, but not
+            guaranteed. If you need it, there is a parking garage close by at
+            the William Vale Hotel.{' '}
+            <a target="_blank" href="https://www.thewilliamvale.com/parking/">
+              Rates are $17 for 12 hours.
+            </a>
           </p>
         </Box>
       </Flex>
