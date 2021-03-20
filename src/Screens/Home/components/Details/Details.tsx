@@ -10,7 +10,7 @@ const Details = () => {
     'details=Website:+hannaandorry.wedding',
     '&location=64+Dobbin+St.,+Brooklyn,+NY',
     '&ctz=America/New_York',
-    '&dates=20200328T170000/20200328T220000',
+    '&dates=20211112T173000/20211112T223000',
   ].join('');
 
   return (
@@ -30,7 +30,7 @@ const Details = () => {
             label="When"
             value={
               <>
-                March 28th, <span className="u--font-thin">2020</span>
+                November 12th, <span className="u--font-thin">2021</span>
               </>
             }
             details={
