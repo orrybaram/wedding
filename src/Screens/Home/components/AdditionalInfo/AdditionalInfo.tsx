@@ -51,7 +51,7 @@ const AdditionalInfo = () => {
               >
                 The Hoxton Hotel
               </a>
-              . Use the code <span className="Tag">HITCHED320</span> to get 10%
+              . Use the code <span className="Tag">HITCHED1121</span> to get 10%
               off.
             </p>
           </Box>
