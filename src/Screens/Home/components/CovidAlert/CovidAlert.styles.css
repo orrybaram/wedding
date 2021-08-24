@@ -1,0 +1,32 @@
+.CovidAlert {
+  flex-direction: row;
+  justify-content: space-between;
+  background: white;
+  border-bottom: 1px solid #d5d5d5;
+}
+
+.Detail__label {
+  display: inline-flex;
+  background: var(--black);
+  color: #fff;
+  padding: 8px;
+  box-shadow: 8px 8px #d2e9d2;
+  margin-bottom: 16px;
+  text-transform: uppercase;
+}
+
+.Detail__value {
+  margin: 0;
+  font-size: 40px;
+}
+
+.Detail__CovidAlert {
+  color: var(--grey);
+  font-style: italic;
+  font-size: 22px;
+}
+
+.Detail__Divider {
+  width: 1px;
+  background-color: var(--light-grey);
+}

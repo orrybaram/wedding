@@ -4,8 +4,9 @@ import Hero from './components/Hero';
 import Banner from './components/Banner';
 import Details from './components/Details';
 import AdditionalInfo from './components/AdditionalInfo';
-import ZolaRegistry from '../../components/ZolaRegistry';
+import ZolaRegistry from './components/ZolaRegistry';
 import Story from './components/Story';
+import CovidAlert from './components/CovidAlert';
 
 const Home = () => {
   return (
@@ -15,6 +16,7 @@ const Home = () => {
       <Details />
       <Story />
       <AdditionalInfo />
+      <CovidAlert />
       <ZolaRegistry
         url="www.zola.com/registry/hannaandorry"
         registryKey="hannaandorry"
