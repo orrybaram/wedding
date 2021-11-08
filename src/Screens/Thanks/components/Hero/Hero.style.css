@@ -1,0 +1,36 @@
+.ThanksHero {
+  align-items: center;
+  background-image: url('./img/heroImage.jpg');
+  background-position: bottom;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  height: calc(100vh - 16px);
+  justify-content: center;
+  min-height: 460px;
+}
+
+.ThanksHero__logo {
+  background: rgba(0, 0, 0, 0.8);
+  padding: 24px;
+  box-shadow: 16px 16px var(--primary);
+  position: relative;
+  top: -100px;
+}
+
+.ThanksHero__title {
+  font-size: 50px;
+  text-transform: uppercase;
+  margin: 0;
+  font-weight: 600;
+  line-height: 48px;
+  letter-spacing: -2px;
+  color: var(--primary);
+}
+
+.ThanksHero__details {
+  margin-top: 20px;
+  font-size: 20px;
+  font-weight: bold;
+  background: var(--secondary);
+}
